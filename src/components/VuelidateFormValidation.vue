@@ -88,7 +88,7 @@ import {
   maxLength,
 } from "vuelidate/lib/validators";
 export default {
-  name: "CalculationForm",
+  name: "VuelidateFormValidation",
   data() {
     return {
       fullname: "",
