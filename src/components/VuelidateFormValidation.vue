@@ -1,5 +1,6 @@
 <template>
   <form id="calculation-form" @submit.prevent="submit">
+    <h3 class="text-center font-weight-light">Vuelidate form validation</h3>
     <div class="form-group row">
       <label class="col-sm-3 col-form-label col-form-label-lg"
         >Full Name <span class="text-danger">*</span></label
@@ -112,7 +113,7 @@ export default {
       this.password = "";
     },
     validationStatus(validation) {
-      console.log(validation);
+      // console.log(validation);
       return typeof validation != "undefined" ? validation.$error : false;
     },
     submit() {
