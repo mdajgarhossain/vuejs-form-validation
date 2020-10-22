@@ -1,4 +1,4 @@
-# vuejs-budget-calculation-app
+# vuejs-form-validation
 
 ## Project setup
 ```
